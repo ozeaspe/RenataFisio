@@ -1,0 +1,87 @@
+@media screen and (max-width: 760px) {
+    header{
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    .header-logo h1 a{
+        font-size: 40px;
+        font-weight: 600;
+        color: #A9A9A9;
+        box-shadow: -2px 3px 0 #ecb9b9;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    #imagem-redonda {
+        width: 600px;
+    }
+
+    aside {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .especialidades-col{
+        float: left;
+        width: 60%;
+        margin-right: 4%;
+        margin-top: 20px;
+    }
+    
+    .especialidades-col:last-child{
+        margin-right:0%;
+    }
+
+    section{
+        flex-direction: column;
+        
+    }
+
+    .atendimento{
+        float: left;
+        position: relative;
+        max-width: 100%;
+        align-self: center;
+    }
+    
+
+    .atendimento p{
+        align-self: center;
+        margin-left: 30px;
+        
+    }
+
+    #logo{
+        margin-left: 70px;
+    }
+
+    .btn{
+        margin-top: 75px;
+    }
+
+    .btnven{
+        margin-top: 105px;
+    }
+    .btnlib{
+        margin-top: 75px;
+    }
+    
+    .btndry{
+        margin-top: 45px;
+    }
+
+    .btndre{
+        margin-top: 5px;
+    }
+
+    form {
+        display: none;
+    }
+}

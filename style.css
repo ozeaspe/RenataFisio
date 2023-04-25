@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&family=Signika+Negative:wght@400;500;600;700&display=swap');
+
+
+body {
+    background: #fffafa;
+    color: #A9A9A9;
+    font-family: 'Signika Negative', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+
+/*Aplicando uma cor nos links e removendo sua formatação*/
+a{
+    color: #A9A9A9; text-decoration: none;
+}
+/*Aplicando uma cor quando se aponta para o link*/
+a:hover{
+    color: #4F4F4F;
+    transition: 0.3s all;
+}
+
+img {max-width: 100%;}
+
+input, textarea{
+    border: 2px solid #a9a9a9;
+    border-radius: 5px;
+    background: #f1f0f05e;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 18px;
+    padding: 15px 5px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-logo h1 a{
+    font-size: 45px;
+    font-weight: 600;
+    color: #A9A9A9;
+    box-shadow: -2px 3px 0 #ecb9b9;
+}
+/*---Aplicando cor diferente no texto---*/
+.fisio{ color: #ecb9b9;}
+
+
+.main-image{
+    float: left;
+    position: relative;
+    padding: 10px;
+    width: 25%;
+  
+}
+
+#imagem-redonda{
+    border-radius: 50%;
+    box-shadow: -5px 5px 20px #a9a9a9;
+}
+
+.main-conteudo{
+    float: right;
+    position: relative;
+    padding: 10px;
+    max-width: 75%;
+}
+
+.main-conteudo h1{
+    font-size: 40px;
+    color: #a9a9a9;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+.main-conteudo p{
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.especialidades-titulo{
+    color: #a9a9a9;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.especialidades-col{
+    float: left;
+    width: 30.66%;
+    margin-right: 4%;
+    margin-top: 20px;
+}
+
+.especialidades-col:last-child{
+    margin-right:0%;
+}
+
+.especialidades-col:hover .cover img{
+    transform: scale(1.05);
+}
+
+.especialidades-col .cover{
+    height: 184px;
+}
+
+.especialidades-col .cover img{
+    transition: all 0.5s ease;
+}
+
+.especialidades-col h2{
+    
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.especialidades-col p{
+    max-width: 100%;
+    text-align: justify;
+}
+
+.especialidades-col a{
+    color: #a9a9a9;
+}
+
+.especialidades-col a:hover{
+    transition: 0.3s all;
+}
+
+.especialidades-col input{
+    padding: 10px 10px;
+    margin:20px;
+    font-size: 16px;
+    color: #4F4F4F;
+    cursor:pointer;
+}
+
+.especialidades-col input[type="button"]{background: rgba(250, 226, 226, 0.7);}
+.especialidades-col input[type="button"]:hover{background: rgba(241, 199, 199);}
+
+.btn{
+    margin-top: 35px;
+}
+
+.btnven{
+    margin-top: 35px;
+}
+
+.btnlib{
+    margin-top: 45px;
+}
+
+.btndry{
+    margin-top: -10px;
+}
+
+.btndre{
+    margin-top: 28px;
+}
+
+.card1{
+    background: #f5f3f4;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20% 20% 0% 0%;
+    
+}
+
+.card{
+    background: #f5f3f4;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 20% 20% 0% 0%;
+    
+}
+
+#imgredu{
+    width: 100%;
+    height: 100%;
+    border-radius: 20% 20% 0% 0%;
+}
+
+.atendimento h1{
+    color: #a9a9a9;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.atendimento{
+    margin-right: 40px;
+    max-width: 60%;
+}
+
+.atendimento p{
+    font-size: 18px;
+    padding: 15px 0px 15px 0px;
+    text-align: justify;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+
+.contato-col label{
+    width: 100%; 
+    float: left; 
+    margin-bottom: 15px;
+}
+
+.contato-col label span{
+    float: left; 
+    font-size: 18px; 
+    font-weight: 700; 
+    margin-bottom: 5px;
+}
+.contato-col label input{
+    float: left; 
+    width: 100%;
+} 
+.contato-col label textarea{
+    float: left; 
+    width: 100%;
+    margin-top: 27px;
+}
+.contato-col label textarea{
+    height: 154px;
+}
+
+form p{
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+p input{
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-size: 16px;
+    color: #4F4F4F;
+    cursor:pointer;
+}
+
+p input[type="reset"]{background: rgba(250, 226, 226, 0.7);}
+p input[type="reset"]:hover{background: rgb(241, 199, 199);}
+p input[type="submit"]{background: rgba(250, 226, 226, 0.7);}
+p input[type="submit"]:hover{background: rgba(241, 199, 199);}
+
+
+
+li {
+    display: inline-block;
+    margin: 20px 15px 0 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
